@@ -2,7 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
 
-const FEEGOW_BASE = 'https://www.api.feegow.com.br/api';
+const FEEGOW_BASE = 'https://api.feegow.com.br/api';
 const PORT = process.env.PORT || 3000;
 
 // ✅ CORS aberto para qualquer origem
